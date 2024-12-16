@@ -21,7 +21,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class MulticastServer {
 
-    private static final String MULTICAST_ADDRESS = "230.0.0.1";
+    private static final String MULTICAST_ADDRESS = "230.0.0.1";//đây là localhost
     private static final int PORT = 4446;
     private static final String SECRET_KEY_STRING = "MySuperSecretKey123"; // Khóa AES phải là 16 ký tự
     private SecretKey secretKey;

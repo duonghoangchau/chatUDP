@@ -26,7 +26,7 @@ import javax.swing.JOptionPane;
  */
 public class frmClient extends javax.swing.JFrame implements Runnable{
 
-    private DatagramSocket socket;
+    private DatagramSocket socket; //datasocket
     private InetAddress group;
     private final static String MULTICAST_ADDRESS = "230.0.0.1";
     private final static int PORT = 4446;
