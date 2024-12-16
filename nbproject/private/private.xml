@@ -6,6 +6,7 @@
             <file>file:/D:/baomat/ChatUDP/src/chatudp/frmClient.java</file>
             <file>file:/D:/baomat/ChatUDP/src/server/MulticastServer.java</file>
             <file>file:/D:/baomat/ChatUDP/src/chatudp/ChatUDP.java</file>
+            <file>file:/D:/baomat/ChatUDP/src/server/UDPServer.java</file>
         </group>
     </open-files>
 </project-private>

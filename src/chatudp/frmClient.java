@@ -29,7 +29,7 @@ public class frmClient extends javax.swing.JFrame implements Runnable{
     private DatagramSocket socket; //datasocket
     private InetAddress group;
     private final static String MULTICAST_ADDRESS = "230.0.0.1";
-    private final static int PORT = 4446;
+    private final static int PORT = 4446;//day la port
     private SecretKey secretKey;
 
     public frmClient() {

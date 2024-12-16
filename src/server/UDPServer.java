@@ -30,7 +30,7 @@ public class UDPServer {
 
     public UDPServer(int port) throws Exception {
         socket = new DatagramSocket(port);
-        byte[] decodedKey = SECRET_KEY_STRING.getBytes(StandardCharsets.UTF_8);
+        byte[] decodedKey = SECRET_KEY_STRING.getBytes(StandardCharsets.UTF_8);//day la khoa
         secretKey = new SecretKeySpec(decodedKey, 0, decodedKey.length, "AES");
         clients = new ArrayList<>();
     }
